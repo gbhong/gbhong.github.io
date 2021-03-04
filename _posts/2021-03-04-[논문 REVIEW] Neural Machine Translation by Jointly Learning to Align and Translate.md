@@ -47,7 +47,7 @@ Encoder에서 출력되는 각 hidden states는 이전 타임스텝에서의 hid
 
 본 논문에서 제시하는 모델 역시 그 기본은 이전의 RNN Encoder-Decoder에 기초하고 있습니다. 하지만 그 설계 방식에는 encoder와 decoder 부분에 모두 차이가 있습니다. 아래 그림을 보면서 설명드리겠습니다.
 
-![model_arch](/images/posts/210304/model_arch.png)
+![model_arch](images/posts/210304/model_arch.png)
 
 ### (1) Encoder
 
