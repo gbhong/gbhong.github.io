@@ -1,6 +1,5 @@
 ---
-math:true
-images:true
+math: true
 ---
 
 # 논문 REVIEW - Neural Machine Translation by Jointly Learning to Align and Translate
