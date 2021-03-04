@@ -30,17 +30,17 @@ Attention은 기존 RNN 기반 encoder-decoder 모델의(Seq2Seq) 단일 context
 ## 2. Background: Neural Machine Translation
 
 인공신경망 기반의 기계 번역은 대개 'source sentence **x**'를 인코딩해서 'target sentence **y**'로 디코딩하는 두 가지 단계로 진행됩니다. 이러한 RNN 기반의 Encoder-Decoder에 대해 간단히 표현하자면, source sentence가 주어졌을 때 대상이 되는 target sentence가 등장할 조건부 확률을 최대화하는 번역 작업을 진행하는 것입니다. 이를 수식으로 나타내면 다음과 같습니다.
-
-![스크린샷 2021-03-03 오후 10.08.38](/Users/gibonghong/Library/Application Support/typora-user-images/스크린샷 2021-03-03 오후 10.08.38.png)
-
+$$
+p(y) = \prod_{t=1}^{T} p(y_t | y_1,...,y_{t-1}, c)
+$$
 여기서 사용된 $c$ 는 디코더의 모든 time step에서 공유하는 context vector로, 이는 encoder의 매 time step에서 매핑되는 hidden states의 비선형결합에 의해 정의됩니다. 이를 수식으로 표현하면 다음과 같습니다.
-
-![스크린샷 2021-03-03 오후 10.11.43](/Users/gibonghong/Library/Application Support/typora-user-images/스크린샷 2021-03-03 오후 10.11.43.png)
-
+$$
+c = q(h_1,...,h_{T_x})
+$$
 Encoder에서 출력되는 각 hidden states는 이전 타임스텝에서의 hidden state와 input word(token) embedding의 비선형결합으로 생성됩니다. 이 역시 수식으로 표현하면 다음과 같습니다. 참고로 Sutskever et al.(2014)의 seq2seq 논문에서는 비선형결합(수식의 $f$,$q$)으로 LSTM을 사용합니다.
-
-![스크린샷 2021-03-03 오후 10.15.20](/Users/gibonghong/Library/Application Support/typora-user-images/스크린샷 2021-03-03 오후 10.15.20.png)
-
+$$
+h_t = f(x_t, h_{t-1})
+$$
 
 
 ## 3. Learning to ALIGN and TRANSLATE
