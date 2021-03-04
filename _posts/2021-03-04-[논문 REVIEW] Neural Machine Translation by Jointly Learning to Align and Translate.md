@@ -1,3 +1,8 @@
+---
+math:true
+images:true
+---
+
 # 논문 REVIEW - Neural Machine Translation by Jointly Learning to Align and Translate
 
 ## Hong Gibong / 2021년 3월 4일
