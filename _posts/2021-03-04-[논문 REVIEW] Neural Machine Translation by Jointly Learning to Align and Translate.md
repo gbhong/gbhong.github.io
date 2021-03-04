@@ -8,7 +8,7 @@
 
 해당 논문이 세상에 나온 지 5년이 지났습니다. 그리고 현재 attention은 여러 분야에서 단일 기술로 활용되고 있습니다. 기계 번역의 퀄리티를 높이기 위해 RNN/LSTM에 대한 보조적 수단으로 사용된 attention이 self-attention으로 발전했고, 오직 이 attention 메커니즘 만으로 Transformer를 구성했습니다. Transformer는 최근 자연어생성(NLG) 및 자연어이해(NLU) 관련 다양한 task에서 SOTA를 기록하는데 기여했습니다. 자연어처리 분야의 일부 연구자들은 Attention의 등장을 '단어 임베딩'만큼이나 중요한 turning point로 생각하는데, 성능을 올려주었을 뿐만 아니라 Alignment Matrix를 통해 그 해석 가능성을 만들어주었다는 점에서 충분히 높은 평가를 받을 만하다고 저 역시도 생각합니다.(Alignment Matrix에 대해서는 논문 본문에서 설명하겠습니다.)
 
-![seq2seq_bottleneck](images/posts/210304/seq2seq_bottleneck.png)
+![seq2seq_bottleneck](./images/posts/210304/seq2seq_bottleneck.png)
 
 이미지: Seq2seq 모델의 bottleneck problem 설명
 출처: cs224n-2021-lecture07-nmt 강의안
