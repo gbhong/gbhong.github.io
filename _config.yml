@@ -102,11 +102,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Gibong Hong"
+  avatar           : "/assets/images/IMG_2658.jpg"
+  bio              : "M.S. in Digital Analytics at Yonsei University"
+  location         : 
+  email            : gibong.hong@yonsei.ac.kr
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/gbhong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
