@@ -4,7 +4,7 @@ main:
   #   url: "/about/"
   - title: "Publications"
     url: /publications/
-  - title: "Experience"
+  - title: "Projects"
     url: /experience/
   - title: "CV"
     url: /_pages/CV_GibongHong_Dec2021.pdf

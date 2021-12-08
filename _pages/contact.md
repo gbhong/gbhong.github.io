@@ -8,6 +8,5 @@ author_profile: true
 
 # Contact Information
 
-- Address: E1580F, CODA, Georgia Institute of Technology, Atlanta, GA
-- Email: [jiaaochen@gatech.edu](mailto:jiaaochen@gatech.edu)
-- Website: [jiaaochen.com](http://www.jiaaochen.com/)
+- Email: [gibong.hong@yonsei.ac.kr](mailto:gibong.hong@yonsei.ac.kr)
+- LinkedIn: https://www.linkedin.com/in/hong-gibong/
