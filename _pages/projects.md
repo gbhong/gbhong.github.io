@@ -9,7 +9,7 @@ author_profile: true
 
 ## Biomedical predicate classification using SemMedDB
 
-![BioPREP_Overview](assets/images/BioPREP_Overview.png)
+![BioPREP_Overview](./assets/images/BioPREP_Overview.png)
 
 - Relation extraction for biomedical text sequence after building open dataset  
    \- Opened dataset, **BioPREP**, with 165,799 sentences, each labeled with 28 predicates.  
