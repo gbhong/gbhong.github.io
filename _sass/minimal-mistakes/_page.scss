@@ -36,15 +36,17 @@ body {
 }
 
 .page {
+  margin-top: 1em;
+
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0; /*$right-sidebar-width-narrow;*/
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: 0; /*$right-sidebar-width;*/
   }
 
   .page__inner-wrap {
@@ -113,7 +115,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   /* paragraph indents */

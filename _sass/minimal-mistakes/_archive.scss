@@ -3,18 +3,25 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
+  margin-top: 0em;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0; /*$right-sidebar-width-narrow;*/
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: 0; /*$right-sidebar-width;*/
+  }
+
+  /* added by menghan */
+  p,
+  li,
+  dl {
+    font-size: 0.8em;
   }
 }
 
@@ -60,7 +67,7 @@
   }
 
   a + a {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 
@@ -107,7 +114,7 @@
   background: #000;
   text-align: right;
   z-index: 5;
-  opacity: 0.5;
+  opacity: 1;
   border-radius: $border-radius 0 0 0;
 
   @include breakpoint($large) {
