@@ -55,4 +55,4 @@ author_profile: true
   - Analyzed the relationship between news headline and each body sentences.
   - Improved time complexity by dynamic padding and uniform length batching.
   - **1st** on public leaderboard, 5th on private leaderboard across 1,000 teams participated.
-- Acheivement: Winning a prize at *NLP Competition, NH Investment & Securities, Korea*
+- Achievement: Winning a prize at *NLP Competition, NH Investment & Securities, Korea*
