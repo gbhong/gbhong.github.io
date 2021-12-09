@@ -104,14 +104,14 @@ analytics:
 author:
   name             : "Gibong Hong"
   avatar           : "/assets/images/IMG_2658.jpeg"
-  bio              : "M.S. in Digital Analytics at <br> Yonsei University"
+  bio              : "M.S. in Digital Analytics <br>at Yonsei University"
   location         : "Seoul, Republic of Korea"
   
   # email            : "gibong.hong@yonsei.ac.kr"
   links:
     - label: "Yonsei University"
       icon: "fas fa-fw fa-school"
-      url: "https://www.yonsei.ac.kr"
+      url: "https://www.yonsei.ac.kr/en_sc/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gibong.hong@yonsei.ac.kr"
