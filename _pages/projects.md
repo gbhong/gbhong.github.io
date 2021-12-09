@@ -8,8 +8,6 @@ author_profile: true
 
 ## User-specific information extraction based on BART summarization
 
-#### *(in progress)*
-
 {% include figure image_path="/assets/images/user_att_ext_1.png" %}
 
 {% include figure image_path="/assets/images/user_att_ext_2.png" %}
@@ -36,8 +34,6 @@ author_profile: true
 
 ## WR / ERA / AVG Prediction model for Korean Baseball Teams
 
-#### Grand Prize (Minister's Award) at Big Contest 2020, National Information Society Agency, Korea
-
 {% include figure image_path="/assets/images/BigCon_overview.png" %}
 
 - Project goal: To build a system to predict Win Rate, Batting Average, and Earned Run Average for Korean baseball teams.
@@ -46,10 +42,9 @@ author_profile: true
   - 26 consequential embedded vectors were used as the inputs of LSTM. Pooled the last hidden state of the LSTM layer to predict WR, ERA and AVG.
   - Scaled moving average of 26 consequential game features were used as input in LightGBM.
   - Best performance across 1,500 teams participated.
+- Achievement: **Grand Prize (Minister's Award)** at *Big Contest 2020, National Information Society Agency, Korea*
 
 ## Fake News Detection Challenge
-
-### Winning a prize at NLP Competition, NH Investment & Securities, Korea
 
 {% include figure image_path="/assets/images/fakenews_overview.png" %}
 
@@ -60,3 +55,4 @@ author_profile: true
   - Analyzed the relationship between news headline and each body sentences.
   - Improved time complexity by dynamic padding and uniform length batching.
   - **1st** on public leaderboard, 5th on private leaderboard across 1,000 teams participated.
+- Acheivement: Winning a prize at *NLP Competition, NH Investment & Securities, Korea*
