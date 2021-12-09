@@ -23,7 +23,7 @@ name                     : "Gibong Hong"
 description              : "M.S. in Digital Analytics at Yonsei University"
 url                      : "https://gbhong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "gbhong/gbhong.github.io"
+repository               : #"gbhong/gbhong.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
