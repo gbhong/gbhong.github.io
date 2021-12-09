@@ -20,7 +20,7 @@ title                    : "Gibong Hong"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Gibong Hong"
-description              : ""
+description              : "M.S. in Digital Analytics at Yonsei University"
 url                      : "https://gbhong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "gbhong/gbhong.github.io"
