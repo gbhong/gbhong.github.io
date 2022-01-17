@@ -10,7 +10,7 @@ author_profile: true
 
 {% include figure image_path="/assets/images/user_att_ext_1.png" %}
 
-{% include figure image_path="/assets/images/user_att_ext_2.png" %}
+{% include figure image_path="/assets/images/user_att_ext_framework.png" %}
 
 - Research goal: To develop a model extracting user attributes from dialogue and persona.
   - Fine-tuned Transformer-based model for a conditional generation to extract users' profiles from dialogue history and persona sentences.
