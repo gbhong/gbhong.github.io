@@ -8,5 +8,5 @@ author_profile: true
 
 # Contact Information
 
-- Email: [gibong.hong@yonsei.ac.kr](mailto:gibong.hong@yonsei.ac.kr)
+- Email: [gbhong2@illinois.edu](mailto:gbhong2@illinois.edu)
 - LinkedIn: https://www.linkedin.com/in/hong-gibong/
